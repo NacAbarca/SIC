@@ -1,5 +1,5 @@
 <div class="app-brand">
-  <a href="/index.html">
+  <a href="/index.html" title="Sistema de Interconsultas">
     <svg
       class="brand-icon"
       xmlns="http://www.w3.org/2000/svg"
@@ -17,6 +17,6 @@
         <path class="logo-fill-white" fill="#FFF" d="M11 4v25l8 4V0z" />
       </g>
     </svg>
-    <span class="brand-name">Sleek Dashboard</span>
+    <span class="brand-name text-truncate">SIC</span>
   </a>
 </div>

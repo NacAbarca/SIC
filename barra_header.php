@@ -14,6 +14,12 @@
         <!-- Github Link Button -->
         <li class="github-link mr-3">
           <a class="btn btn-outline-secondary btn-sm" href="https://github.com/tafcoder/sleek-dashboard" target="_blank">
+            <span class="d-none d-md-inline-block mr-2">GitHub</span>
+            <i class="mdi mdi-github-circle"></i>
+          </a>
+        </li>
+        <li class="github-link mr-3">
+          <a class="btn btn-outline-secondary btn-sm" href="example/" target="_blank">
             <span class="d-none d-md-inline-block mr-2">Documentación</span>
             <i class="mdi mdi-github-circle"></i>
           </a>
@@ -29,6 +35,5 @@
       </ul>
     </div>
   </nav>
-
 
 </header>

@@ -1,18 +1,14 @@
-
-<?php
-  // start: cabecera
-  include_once("barra_cabecera.php");
-  // end: cabecera
-?>
+<!-- start: cabecera -->
+<?php include_once("barra_cabecera.php"); ?>
+<!-- end: cabecera -->
 
     <body class="sidebar-fixed sidebar-dark header-light header-fixed" id="body">
       <script>
-        NProgress.configure({ showSpinner
-          : false });
+        NProgress.configure({ showSpinner : false });
         NProgress.start();
       </script>
 
-      <div class="mobile-sticky-body-overlay"></div>
+      <div id="toaster"></div>
 
       <div class="wrapper">
         <!--
@@ -25,7 +21,7 @@
         <div class="page-wrapper">
 
           <!-- start: Header -->
-          <?php include_once("barra_superior.php"); ?>
+          <?php include_once("barra_header.php"); ?>
           <!-- end: Header -->
 
           <!-- start: contentair body -->
@@ -37,13 +33,11 @@
           <!-- end: contentair body -->
 
           <!-- start: footer -->
-          <?php include_once("barra_inferior.php") ?>
+          <?php include_once("barra_footer.php"); ?>
           <!-- end: footer -->
         </div>
       </div>
 
-      <!-- start: script -->
-      <?php include_once("barra_footer.php"); ?>
-      <!-- end: script -->
-    </body>
-  </html>
+  <!-- start: inferior -->
+  <?php include_once("barra_inferior.php") ?>
+  <!-- end: inferior -->
